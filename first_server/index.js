@@ -1,4 +1,8 @@
 const http = require('http');
+//import http from 'http'; //ES6 in Node NOT working  
+//Essentially the loading of this required code happens first in a specific order rather than the imports
+//and tax breaks is order because in E6 loading of contents from another file with the imports in tax
+//we happen asynchronously so we can't use import because it breaks no paradigm of requiring modules first
 
 const hostname = 'localhost';
 const port = 3000;
