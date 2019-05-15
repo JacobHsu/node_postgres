@@ -23,6 +23,16 @@ POST http://localhost:3000/fortunes body RAW Text=>JSON
 }
 ```
 
+PUT http://localhost:3000/fortunes/4 body RAW Text=>JSON  
+> Header(1) Content-Type application/json
+```js
+{
+	"message":"Love 3000",
+	"lucky_number":21,
+	"spirit_animal":"Avengers"
+}
+```
+
 
 # Tools
 
