@@ -9,3 +9,22 @@ This provides the completed projects for:
 
 Check out the original course: 
 https://www.udemy.com/node-postgresql
+
+# Usage 
+
+GET　http://localhost:3000/fortunes
+POST http://localhost:3000/fortunes body RAW Text=>JSON  
+> Header(1) Content-Type application/json
+```js
+{
+	"message":"Love 3000",
+	"lucky_number":22,
+	"spirit_animal":"Avengers"
+}
+```
+
+
+# Tools
+
+[Postman](https://www.getpostman.com) | API Development Environment
+[Get Postman](https://www.getpostman.com/downloads/) for Windows  
