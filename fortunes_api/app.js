@@ -24,6 +24,7 @@ const writeFortunes = json => {
 };
 
 app.post('/fortunes', (req, res) => {
+  console.log('app.post /fortunes'); 
   const { message, lucky_number, spirit_animal } = req.body;
 
   const fortune_ids = fortunes.map(f => f.id);
