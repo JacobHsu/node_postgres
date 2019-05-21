@@ -10,6 +10,10 @@ This provides the completed projects for:
 Check out the original course: 
 https://www.udemy.com/node-postgresql
 
+## npm 
+
+安裝 [pg](https://www.npmjs.com/package/pg)，也就是 [PostgreSQL client for Node.js](https://docs.microsoft.com/zh-tw/azure/postgresql/connect-nodejs)  
+
 # Usage 
 
 GET　http://localhost:3000/fortunes
@@ -38,3 +42,4 @@ PUT http://localhost:3000/fortunes/4 body RAW Text=>JSON
 
 [Postman](https://www.getpostman.com) | API Development Environment
 [Get Postman](https://www.getpostman.com/downloads/) for Windows  
+[Postgres.app](https://postgresapp.com/) is a full-featured PostgreSQL installation packaged  as a standard Mac app. `$ psql -U postgres`   
